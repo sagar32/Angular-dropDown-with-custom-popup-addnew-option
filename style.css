@@ -1,0 +1,80 @@
+/*// TechHive DropDown CSS Start*/
+.techhiveElement{
+    position:relative;
+    width: 100%;
+    display: inline-block;
+}
+.ac-box,.TechHive{
+    border:1px solid #e0e0e0;
+    cursor: pointer;
+}
+.ac-box-open{
+    border-bottom: none;
+
+}
+.TechHive{
+    border-top: none;
+    background-color:#fff;
+    display:inline-block;
+    position: absolute;
+    width:100%;
+    z-index: 999;
+
+}
+.ac-box-select{
+    background-color: #ffffff;
+}
+.ac-box-select .ac-dropdown-icon{
+    float: right;
+}
+.ac-pad{
+    border-top: medium none;
+    cursor: pointer;
+    top: 5px;
+    background-color: #fff;
+
+}
+.ac-box-select {
+    padding: 5px 10px;
+    position: relative;
+    
+}
+.ac-pad ul{
+    margin: 0;
+    padding: 0;
+    max-height:200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.ac-pad ul > li {
+    list-style: outside none none;
+    padding: 5px;
+}
+.ac-pad ul > li:hover{
+    background-color: #428BCA;
+    color:#ffffff;
+}
+
+.ac-footer {
+    padding: 5px 10px;
+    border-top:1px solid #CCCCCC;
+    background-color: #428BCA;
+    color:#ffffff;
+}
+.ac-footer:hover{
+    background-color: #FBFAFA;
+    color: #2E8FDA;
+}
+.ac-box-select .ac-select{
+    font-size:18px;
+    padding: 2px;
+    color:#727272;
+}
+.ac-pad-textbox{
+    position:relative;
+    display:inline-block;
+    width:95%;
+    padding: 5px;
+}
+
+/*// End*/
